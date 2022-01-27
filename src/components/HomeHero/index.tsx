@@ -9,7 +9,7 @@ function HomeHero() {
       <div>
         <TextContainer>
           <h1>Olá</h1>
-          <h2 classname = "nessuno">Meu nome é Yuri  </h2>
+          <h2 className = "nessuno">Meu nome é Yuri  </h2>
 
         </TextContainer>
       </div>
