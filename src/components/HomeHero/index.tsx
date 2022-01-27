@@ -13,7 +13,6 @@ function HomeHero() {
 
         </TextContainer>
       </div>
-      <h1>HomeHero</h1>
       
     </Container>
   );
