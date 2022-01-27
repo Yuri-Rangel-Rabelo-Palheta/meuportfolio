@@ -6,16 +6,16 @@ import { HomeContainer } from "../styles/HomeStyles";
 
 export default function Home() {
   return (
-    <homecontainer>
+    <HomeContainer>
 
       <Header />
 
-      <main classname= "container">
+      <main className= "container">
         <HomeHero />
 
       </main>
 
-    </homecontainer>
+    </HomeContainer>
 
     
         
