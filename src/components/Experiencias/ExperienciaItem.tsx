@@ -1,14 +1,22 @@
 import { ItemContainer } from './styles'
 
-export default function ExperienciaItem(){
+interface ExperienciaProps{
+    year: string;
+    title:string;
+    description: string;
+
+
+}
+
+export default function ExperienciaItem({year, title, description }: ExperienciaProps){
 
     return(
 
         <ItemContainer>
             <div>
-                <h1>ano</h1>
-                <h2>dev </h2>
-                <p>texto descrevendo a experiencia</p>
+                <h1>{year}</h1>
+                <h2>{title}</h2>
+                <p>{description}</p>
 
             </div>
         </ItemContainer>
