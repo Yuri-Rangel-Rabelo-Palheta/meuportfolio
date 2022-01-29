@@ -4,7 +4,7 @@ import picture from '../../assets/pessoa.webp';
 function HomeHero() {
   return (
     <Container>
-      <img src={picture} alt="Minha foto" />
+      {/*<img src={picture} alt="Minha foto" />*/}
       <div>
         <TextContainer>
           <h1>Olá</h1>
