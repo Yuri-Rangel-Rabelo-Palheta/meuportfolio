@@ -26,6 +26,7 @@ function Experiencias() {
           year="2017-atualmente"
           title="UFPA-Salinópolis-DTI-TAE-TI"
           description="descrição das funções" />
+          
       </section>
     </Container>
   );
