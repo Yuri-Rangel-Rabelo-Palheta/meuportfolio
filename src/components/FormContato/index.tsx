@@ -1,4 +1,5 @@
 import SectionTitle from '../SectionTitle';
+import Form from './Form';
 import { Container } from './styles';
 
 

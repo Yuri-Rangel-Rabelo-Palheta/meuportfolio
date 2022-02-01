@@ -2,6 +2,7 @@ import { Head } from "next/document";
 import Conhecimentos from "../components/Conhecimentos";
 import ConhecimentoItem from "../components/Conhecimentos/ConhecimentoItem";
 import Experiencias from "../components/Experiencias";
+import FormContato from "../components/FormContato";
 import Header from "../components/Header";
 import HomeHero from "../components/HomeHero";
 import Projetos from "../components/Projetos";
@@ -19,6 +20,7 @@ export default function Home() {
         <Experiencias />
         <Projetos />
         <Conhecimentos />
+        <FormContato />
       </main>
 
     </HomeContainer>

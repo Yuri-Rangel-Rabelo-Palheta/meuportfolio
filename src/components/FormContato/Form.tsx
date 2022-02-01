@@ -1,16 +1,13 @@
-import {FormContainer, Input} from './styles';
+import {FormContainer, Input, TextArea} from './styles';
 
 
 export default function Form(){
      return (
          <FormContainer>
-             <form>
-                <Input placeholder="Nome" required />
-                <Input placeholder="E-mail" type="email" required />
-                <button type="submit">Enviar </button>
-             </form>
-             
-
+            <Input placeholder="Nome" required />
+            <Input placeholder="E-mail" type="email" required />
+            <TextArea placeholder='Mensagem' required/>
+            <button type="submit">Enviar </button>     
          </FormContainer>
      )
 
