@@ -9,28 +9,28 @@ export default function Projetos(){
             <Header />
             <main className='container'>
                 <ProjetosItem 
-                    title = "projeto"
+                    title = "projeto 01"
                     type = "tipo de projeto"
                     imgUrl ="https://colegios.redemarista.org.br/joao-paulo-ii/sala-de-aula/PublishingImages/imagem%20pdv.png?RenditionID=20"
-                    slug=''                
+                    slug='01'                
                 />
                 <ProjetosItem 
-                    title = "projeto"
+                    title = "projeto 02"
                     type = "tipo de projeto"
                     imgUrl ="https://colegios.redemarista.org.br/joao-paulo-ii/sala-de-aula/PublishingImages/imagem%20pdv.png?RenditionID=20"
-                    slug=''                
+                    slug='02'                
                 />
                 <ProjetosItem 
-                    title = "projeto"
+                    title = "projeto 03"
                     type = "tipo de projeto"
                     imgUrl ="https://colegios.redemarista.org.br/joao-paulo-ii/sala-de-aula/PublishingImages/imagem%20pdv.png?RenditionID=20"
-                    slug=''                
+                    slug='03'                
                 />
                 <ProjetosItem 
-                    title = "projeto"
+                    title = "projeto 04"
                     type = "tipo de projeto"
                     imgUrl ="https://colegios.redemarista.org.br/joao-paulo-ii/sala-de-aula/PublishingImages/imagem%20pdv.png?RenditionID=20"
-                    slug=''                
+                    slug='04'                
                 />
             </main>
 
