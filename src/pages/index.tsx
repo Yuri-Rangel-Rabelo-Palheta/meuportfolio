@@ -19,8 +19,8 @@ export default function Home() {
       <main className= "container">
         <HomeHero />
         <Experiencias />
-        <Projetos />
         <Conhecimentos />
+        <Projetos />
         <FormContato />
         <Footer />
       </main>
