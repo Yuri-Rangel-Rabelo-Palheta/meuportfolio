@@ -7,7 +7,7 @@ import { Container } from './styles';
 function Experiencias() {
   return (
     <Container>
-      <SectionTitle title= "# 14 anos" description="de experiência"/>
+      <SectionTitle title= "# 16 anos" description="de experiência"/>
       
       <section>
         <ExperienciaItem 
@@ -23,8 +23,12 @@ function Experiencias() {
           title="UFPA-Bolsista"
           description="descrição das funções" />
         <ExperienciaItem 
-          year="2017-atualmente"
+          year="2017-2022"
           title="UFPA-Salinópolis-DTI-TAE-TI"
+          description="descrição das funções" />
+        <ExperienciaItem 
+          year="2022-Atualmente"
+          title="UFRA-Belém-DSIN-STIC-TAE-TI"
           description="descrição das funções" />
           
       </section>
